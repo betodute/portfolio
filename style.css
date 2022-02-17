@@ -2,7 +2,7 @@
 
 .nav-link {
   font-family: 'Chivo', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: black;
   letter-spacing: 1px;
   font-weight: 500;
@@ -11,4 +11,10 @@
 
 .nav-item {
   padding: 8px;
+}
+
+#atom {
+  font-size: 25px;
+  padding: 10px;
+  animation-duration: 10s;
 }
