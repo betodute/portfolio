@@ -64,5 +64,18 @@ a:link{
 
 .title-about {
   margin: 40px 30px;
+}
 
+.soc-media-container {
+  height: 200px;
+  border-left: solid grey;
+}
+
+.about-list > li {
+  padding: 8px;
+}
+
+.soc-icon {
+  padding: 40px;
+  font-size: 90px;
 }
