@@ -71,6 +71,12 @@ a:link{
   border-left: solid grey;
 }
 
+@media only screen and (max-width: 1005px) {
+  .soc-media-container {
+    border-left: transparent;
+  }
+}
+
 .about-list > li {
   padding: 8px;
   font-family: 'Chivo', sans-serif;
@@ -82,6 +88,18 @@ a:link{
 }
 
 .soc-icon {
-  padding: 40px;
+  padding: 20px;
   font-size: 90px;
+  color: black;
+}
+
+.footer-text {
+  padding: 8px;
+  font-family: 'Chivo', sans-serif;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 500;
+  word-spacing: 3px;
+  text-align: center;
 }
