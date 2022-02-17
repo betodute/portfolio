@@ -27,3 +27,8 @@ a:link{
   font-weight: 600;
 }
 
+.img-ratio {
+  margin-bottom: 10px;
+  aspect-ratio: 4.8 / 3;
+}
+
