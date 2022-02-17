@@ -1,5 +1,9 @@
 /* Navbar */
 
+a:link{
+  text-decoration: none;
+}
+
 .nav-link {
   font-family: 'Chivo', sans-serif;
   font-size: 16px;
@@ -9,12 +13,17 @@
   word-spacing: 3px;
 }
 
-.nav-item {
-  padding: 5px;
-}
-
 #atom {
   font-size: 25px;
   padding: 10px;
   animation-duration: 10s;
 }
+
+/* Featured Project */
+
+.title {
+  color: black;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 600;
+}
+
