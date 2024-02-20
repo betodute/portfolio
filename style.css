@@ -1,0 +1,110 @@
+/* Navbar */
+
+a:link{
+  text-decoration: none;
+}
+
+.nav-link {
+  font-family: 'Chivo', sans-serif;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 500;
+  word-spacing: 3px;
+}
+
+#atom {
+  font-size: 25px;
+  padding: 10px;
+  animation-duration: 10s;
+}
+
+/* Featured Project */
+
+.title {
+  color: black;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 600;
+}
+
+.featured-img {
+  border-radius: 30px;
+}
+
+.img-ratio {
+  margin-bottom: 10px;
+  aspect-ratio: 4.8 / 3;
+}
+
+/* Publications */
+
+.pub-text-container {
+  padding: 0px 20px;
+  width: 100%;
+  border-radius: 40px;
+  background-color: #FEFFEB;
+}
+
+.publication-title {
+  font-family: 'Manuale', serif;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.publication-body {
+  font-family: 'Manuale', serif;
+  font-weight: 300;
+  text-indent: 2em;
+}
+
+.publication-source {
+  font-family: 'Manuale', serif;
+  font-weight: 500;
+  text-indent: 2em;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+/* About */
+
+.title-about {
+  margin: 40px 30px;
+}
+
+.soc-media-container {
+  height: 200px;
+  border-left: solid grey;
+}
+
+@media only screen and (max-width: 1005px) {
+  .soc-media-container {
+    border-left: transparent;
+  }
+}
+
+.about-list > li {
+  padding: 8px;
+  font-family: 'Chivo', sans-serif;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 500;
+  word-spacing: 3px;
+}
+
+.soc-icon {
+  padding: 20px;
+  font-size: 90px;
+  color: black;
+}
+
+.footer-text {
+  padding: 8px;
+  font-family: 'Chivo', sans-serif;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 500;
+  word-spacing: 3px;
+  text-align: center;
+}
